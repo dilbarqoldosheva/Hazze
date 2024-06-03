@@ -6,6 +6,28 @@ main .section_hero {
   background-repeat: no-repeat;
   background-position: center;
 }
-main .section_hero div h2 {
-  color: #e83e8c;
+main .section_hero div {
+  padding-top: 200px;
+  color: #fff;
+}
+main .section_hero div h3 {
+  color: #e83e8c !important;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+main .section_hero div h1 {
+  font-size: 60px;
+  padding: 20px 0;
+}
+main .section_hero div p {
+  line-height: 29px;
+  margin-bottom: 45px;
+}
+main .section_hero div button {
+  background-color: #e83e8c;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
 }

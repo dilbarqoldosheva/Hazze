@@ -7,21 +7,18 @@ main .section_hero {
   background-position: center;
 }
 main .section_hero div {
-  padding-top: 200px;
+  padding-top: 300px;
   color: #fff;
 }
-main .section_hero div h3 {
-  color: #e83e8c !important;
-  font-size: 16px;
-  padding-bottom: 20px;
+main .section_hero div h2 {
+  font-size: 26px;
+  color: #e83e8c;
 }
 main .section_hero div h1 {
   font-size: 60px;
-  padding: 20px 0;
 }
 main .section_hero div p {
-  line-height: 29px;
-  margin-bottom: 45px;
+  line-height: 25px;
 }
 main .section_hero div button {
   background-color: #e83e8c;
@@ -40,7 +37,6 @@ main .section_hero div button {
 
 .continer {
   width: 80%;
-  height: -moz-max-content;
   height: max-content;
   margin: 0 auto;
-}/*# sourceMappingURL=index.css.map */
+}
