@@ -30,4 +30,48 @@ main .section_hero div button {
   color: #fff;
   font-weight: bold;
   font-size: 16px;
+}
+main .section_about {
+  background-color: #191919;
+}
+main .section_about .section_about__div-top {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+main .section_about .section_about__div-top .section_about__div-right h3 {
+  font-size: 14px;
+  color: #e83e8c;
+  padding: 30px 0;
+}
+main .section_about .section_about__div-top .section_about__div-right h2 {
+  font-size: 45px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+main .section_about .section_about__div-top .section_about__div-right p {
+  padding: 10px 0;
+  line-height: 30px;
+  color: #fff;
+}
+main .section_about .section_about__div-top .section_about__div-right button {
+  background-color: #e83e8c;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 630px) {
+  main .section_about__div-top {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=all.css.map */

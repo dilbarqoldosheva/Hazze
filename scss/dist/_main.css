@@ -6,24 +6,24 @@ main .section_hero {
   background-repeat: no-repeat;
   background-position: center;
 }
-main .section_hero div {
+main .section_hero div, main .section_hero .section_about__div-right {
   padding-top: 200px;
   color: #fff;
 }
-main .section_hero div h3 {
+main .section_hero div h3, main .section_hero .section_about__div-right h3 {
   color: #e83e8c !important;
   font-size: 16px;
   padding-bottom: 20px;
 }
-main .section_hero div h1 {
+main .section_hero div h1, main .section_hero .section_about__div-right h1 {
   font-size: 60px;
   padding: 20px 0;
 }
-main .section_hero div p {
+main .section_hero div p, main .section_hero .section_about__div-right p {
   line-height: 29px;
   margin-bottom: 45px;
 }
-main .section_hero div button {
+main .section_hero div button, main .section_hero .section_about__div-right button {
   background-color: #e83e8c;
   padding: 15px 30px;
   border: none;
