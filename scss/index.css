@@ -110,6 +110,39 @@ main .section_about .section_about__div-button .section_about__div-button-button
 main .card:hover {
   border-bottom: 2px solid #e83e8c;
 }
+main .section_PORTFOLIO {
+  background-color: #191919;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top h3 {
+  font-size: 14px;
+  color: #e83e8c;
+  padding: 30px 0;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top h2 {
+  font-size: 45px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-button {
+  display: flex;
+  align-items: center;
+  background-image: url(/img/2024-06-04_02-12-28.png);
+  width: 80%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media only screen and (max-width: 630px) {
   main .section_about__div-top {
     padding: 100px 0;
@@ -130,6 +163,43 @@ main .card:hover {
   main .section_about__div-button-top h2 {
     text-align: center;
   }
+}
+main .section_PORTFOLIO {
+  background-color: #191919;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top h3 {
+  font-size: 14px;
+  color: #e83e8c;
+  padding: 30px 0;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-top h2 {
+  font-size: 45px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+main .section_PORTFOLIO .section_PORTFOLIO__div .section_PORTFOLIO__div-button {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  background-image: url(/img/2024-06-04_02-12-28.png);
+  width: 80%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .section_PORTFOLIO__div-top h2 {
+  text-align: center;
 }
 
 * {
