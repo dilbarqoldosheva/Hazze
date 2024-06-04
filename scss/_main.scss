@@ -175,15 +175,7 @@ main{
             }
         }
     }
-    .section_World{
-        .section_World__div{
-            .section_World__div-top{
-                background-image: url(.section_World__div-top);
-                width: 100%;
-                height: 600px;
-            }
-        }
-    }
+    
     .section_PORTFOLIO{
         background-color: #191919;
         .section_PORTFOLIO__div{
@@ -227,4 +219,18 @@ main{
 }
 .section_SPEAKS{
     background-color: #191919;
+}
+
+
+.section_World{
+    .section_World__div{
+        .section_World__div-top{
+            background-image: url(https://preview.colorlib.com/theme/hazze/img/ctc-bg.jpg.webp);
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
 }
